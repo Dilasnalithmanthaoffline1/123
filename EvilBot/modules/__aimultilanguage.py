@@ -59,7 +59,7 @@ async def hmm(_, message):
             await lel.edit("evil AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"evil AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"Alexa AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
@@ -69,7 +69,7 @@ async def hmm(_, message):
             await lel.edit("evil AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"evil AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"Alexa AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
